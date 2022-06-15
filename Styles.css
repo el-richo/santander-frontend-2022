@@ -5,17 +5,20 @@ body{
 h1{
     color: #025157;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
     color: #8b8b8bcc;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 }
 
 button {
     color: #fff;
     background-color: #025157;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 li {
@@ -50,9 +53,9 @@ li {
     text-align: left;
     font-size: 14px;
     color: #025157;
-    font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+       
 }
 
 .actions {
@@ -60,7 +63,7 @@ li {
     text-align: left;
     font-size: 14px;
     font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main  {
@@ -84,5 +87,6 @@ li {
     background-color: #67b54b;
     padding: 12px 14px;
     border-radius: 5px;
+    border-style: none;
 
 }
