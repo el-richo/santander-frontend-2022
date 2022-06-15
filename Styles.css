@@ -41,25 +41,48 @@ li {
 
 .logo > img {
     width:50px;
-    height: 45 px
+    height: 45 px;
 }
 
 .navbar {
     width:70%;
-    text-align: center;
+    height: 45px;
+    text-align: left;
     font-size: 14px;
     color: #025157;
     font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .actions {
     width:15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main  {
-    margin-top: 140px; 
+    margin-top: 50px; 
     text-align: center;
+}
+
+.navbar > ul >  li{
+    margin: 0 20px;
+}
+
+.actions > * {
+    padding: 0 10px;
+}
+.actions > a {
+    color: #67b54b
+}
+
+.actions > button {
+    color: fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border-radius: 5px;
+
 }
