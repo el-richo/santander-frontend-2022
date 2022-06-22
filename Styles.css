@@ -136,4 +136,19 @@ form{
     align-items: center;
  }
 
- 
+ .features{
+    height: 660px;
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    border: #025157 solid;
+    background-color: #025157;
+        }
+
+.features article{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 20px;
+    border: #fff solid ;
+}
