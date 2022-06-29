@@ -13,6 +13,8 @@ body{
 
 .navbar-brand{
     width: 10%;
+    justify-content:center;
+    color:#67b54b;
 }
 
 .navbar-actions{
@@ -226,7 +228,102 @@ form{
     height: 100%;
   }
 
+.cards {
+  margin: 20px;
+  justify-items: center;
+}
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #67b54b;
+  font-size: 1.1rem;
+  }
+
+  #navbar-container{
+    background-color:#fffbf7;
+  }
+
+/*sesion 6*/
+.success-stories {
+  background-color: #A1D683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.success-stories .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  color: #025157;
+}
+
+#logoCarrusel1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top:-45px;
+  right: 20px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.card .card-body .results img {
+  width: 26px;
+  margin-right: 20px;
+}
+
+.card .card-body .results {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card .card-footer .btn {
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #025157;
+  color: #fff;
+  border: none;
+}
+
+.carousel-indicators {
+  margin-top: 20px;
+}
 
 /*para dispositivos moviles*/
 @media (max-width:575px){
