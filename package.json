@@ -1,0 +1,27 @@
+{
+  "name": "santander-frontend-2022",
+  "version": "1.0.0",
+  "description": "Proyecto de certificación FrontEnd con Santander Universidades",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-richo/santander-frontend-2022.git"
+  },
+  "keywords": [
+    "Santander",
+    "Front",
+    "End"
+  ],
+  "author": "Ricardo Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el-richo/santander-frontend-2022/issues"
+  },
+  "homepage": "https://github.com/el-richo/santander-frontend-2022#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
