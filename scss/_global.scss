@@ -1,0 +1,21 @@
+//global.scss
+
+//colores
+
+$dark-green-title:#025157;
+$dark-green-text:#135359;
+$white:#ffff;
+
+//colores de columnas
+$dark-gray-title:#4a4a4a;
+$light-gray-subtitle: #979797;
+$green-subtitle:#67b54b ;
+
+//Fuentes
+
+$font-title: 'Alegreya', Serif;
+
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-text;
+}

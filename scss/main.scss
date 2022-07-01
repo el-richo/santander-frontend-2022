@@ -1,0 +1,59 @@
+@use 'global' as *;
+
+
+.blog {
+    background-color: #ffffff;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .title{
+        @extend %base-title;
+    }
+
+    
+    & > div {
+        & > h3 {
+            color: $dark-green-title;
+            margin-bottom: 0;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        & > p {
+            color: $dark-green-text;
+            margin: 0;
+        }
+    }
+
+    .process-icon{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    img{
+        height: 100%;
+    }
+
+    button{
+        height: auto;
+        border-radius: 8px;
+        padding: 12px;
+        width:180px;
+        margin-top: 15px;
+    }
+
+  }
+
+.col{
+    .card-title{
+        color: $dark-gray-title;
+    }
+    .card-text{
+        color:$light-gray-subtitle
+    }
+    .category{
+        color: $green-subtitle;
+    }
+
+}

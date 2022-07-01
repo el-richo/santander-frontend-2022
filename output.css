@@ -1,0 +1,48 @@
+.blog .title {
+  font-family: "Alegreya", Serif;
+  color: #135359;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-top: 15px;
+}
+
+.col .card-title {
+  color: #4a4a4a;
+}
+.col .card-text {
+  color: #979797;
+}
+.col .category {
+  color: #67b54b;
+}
+
+/*# sourceMappingURL=output.css.map */
